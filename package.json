@@ -1,18 +1,1 @@
-{
-  "name": "Resume Formatter Engine",
-  "version": "1.0.0",
-  "description": "A server for formatting resumes.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "dependencies": {
-    "express": "^4.17.1",
-    "puppeteer": "^10.0.0",
-    "joi": "^17.3.0",
-    "cors": "^2.8.5",
-    "body-parser": "^1.19.0"
-  },
-  "author": "VivekTECG",
-  "license": "ISC"
-}
+{\n  "name": "resume-formatter-engine",\n  "version": "1.0.0",\n  "description": "Resume Formatter Engine - server for formatting resumes",\n  "main": "index.js",\n  "scripts": {\n    "start": "node server.js",\n    "dev": "nodemon server.js",\n    "test": "echo \"No tests configured\" && exit 0"\n  },\n  "dependencies": {\n    "express": "^4.18.2",\n    "puppeteer": "^19.6.0",\n    "joi": "^17.9.2",\n    "cors": "^2.8.5",\n    "body-parser": "^1.20.2",\n    "dotenv": "^16.0.3",\n    "html-pdf": "^2.2.0"\n  },\n  "author": "VivekTECG",\n  "license": "ISC"\n}
